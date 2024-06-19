@@ -2,21 +2,29 @@
 
 **Overview**
 
-In this project, I utilized K-Means clustering to analyze and categorize Thai live sellers based on their posting types and engagement metrics. This README provides an overview of the project, including key concepts of K-Means clustering and insights derived from the analysis.
+In this project, I utilized K-Means clustering to analyze and categorize Thai live sellers based on their posting types and engagement metrics. 
 
-**Key Concepts:**
+# Introduction to K-Means Clustering
+K-Means clustering is a widely-used unsupervised machine learning algorithm that identifies inherent groups within unlabeled datasets. Unlike supervised learning, which requires predefined categories, K-Means relies solely on input features to uncover patterns and structures in data.
 
-1. **K-Means Clustering**
-K-Means clustering is a popular unsupervised machine learning algorithm used to partition data points into K distinct clusters. It operates by iteratively assigning data points to clusters based on the proximity to the cluster's centroid (mean).
+# K-Means Clustering Intuition
+The algorithm operates by iteratively assigning data points to clusters represented by centroids, which are points at the centre of each cluster. Its objective is to minimize variance within each cluster, grouping data points based on their similarity in feature space.
 
-2. **Elbow Method**
-The Elbow Method is a technique used to determine the optimal number of clusters (K). It plots the sum of squared distances from each point to its assigned cluster center (inertia) against the number of clusters. The "elbow" point where the inertia starts to decrease more slowly indicates the optimal K value.
+**Key Concepts**
 
-3. **Label Encoding**
-Label Encoding is a preprocessing step where categorical variables are converted into numerical labels. This transformation allows algorithms like K-Means to process categorical data effectively.
+**Centroid:**
+Each cluster is characterized by a centroid, which represents its centre. Data points are assigned to clusters based on proximity to these centroids.
 
-4. **Feature Scaling**
-Feature Scaling standardizes the range of independent variables in the data. It ensures that each feature contributes equally to the clustering process, preventing variables with larger ranges from dominating the algorithm.
+**Elbow Method:**
+This technique assists in determining the optimal number of clusters (K) by plotting the sum of squared distances from each point to its cluster centre (inertia) against K. The "elbow" point signifies the optimal K where inertia begins to plateau.
+
+**Label Encoding:**
+A preprocessing step where categorical variables are converted into numerical labels. This allows algorithms like K-Means to process categorical data effectively.
+
+**Feature Scaling:**
+Standardizing the range of independent variables ensures each feature contributes equally to clustering. It prevents variables with larger ranges from dominating the algorithm.
+
+K-Means clustering is highly effective for discovering structure in data and is applied across diverse domains for tasks such as segmentation and pattern recognition.
 
 # Project Details
 
